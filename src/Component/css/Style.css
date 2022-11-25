@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navStyle{
+
+background-color: #2C3E50;
+
+}
+
+
+
+.navStyle li{
+
+ padding: 0 20px;   
+}
+
+body{
+
+font-weight: 900 !important;
+overflow-x: hidden;
+
+
+}
+h1,h2{
+font-weight: 900 !important;
+font-size: 55px !important;
+
+
+}
+.home-bg{
+
+background-color: #1ABC9C;
+
+
+}
+
+.line{
+
+height: 6px;
+width: 30%;
+background:#fff;
+display: inline-block;
+border-radius: 20px;
+margin: 15px 10px;
+
+
+}
+
+.item{
+
+
+margin:10px 0 ;
+
+
+
+}
+.line-dark{
+
+height: 6px;
+    width: 15%;
+    background-color: #2C3E50;
+    display: inline-block;
+    border-radius: 20px;
+    margin: 15px 10px;
+
+
+}
+
+ .contain {
+    position: relative;
+    
+}
+
+.raduis-10{
+border-radius: 10px;
+
+}
+
+.layOut{
+
+    position: absolute;
+        top: 0;
+        left: 0;
+        background-color:#3cd6b7;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition-property: all;
+        transition-duration: 0.5s;
+}
+
+
+ .item .contain .layOut:hover {
+
+    opacity: 1;
+}
+
+.aboutContent p{
+
+font-size: 20px;
+
+
+}
+
+.aboutContent{
+
+padding: 0 10px;
+font-weight: 500;
+
+}
+.container-about{
+
+width: 60%;
+
+}
+                   /******************************** contact ************************************/
+
+
+
+#contact .form {
+    width: 100%;
+    padding: 10px 30px;
+
+}
+
+#contact .include {
+
+    padding: 15px;
+
+
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+#contact input {
+
+    padding: 10px 5px;
+   font-size: 20px;
+   font-weight: 500;
+   color:gray ;
+    border: transparent 1px solid;
+    background-color: #fff !important;
+}
+
+
+
+#contact .comment {
+
+    width: 100%;
+    padding: 10px;
+}
+
+#contact input,
+textarea {
+    width: 100%;
+
+}
+
+
+#contact form .submit {
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+.submit button {
+
+    color: #fff ;
+    padding: 15px 25px;
+    background-color: #3cd6b7;
+    margin-bottom: 30px;
+    font-size: 20px;
+
+
+}
+
+
+
+/* ************Footer************ */
+
+
+.footerItem p{
+
+font-weight: 400;
+font-size: larger;
+padding: 0 90px;
+}
+
+.social i{
+
+border: white 1px solid;
+border-radius: 50%;
+margin: 0 10px;
+padding: 9px 13px;
+font-size: 23px;
+transition: all 0.5s;
+cursor: pointer;
+
+}
+
+.social i:hover{
+
+background-color: white;
+color: black;
+
+
+}
+
+nav .nav-item{
+
+background-color:transparent;
+border-radius: 10px;
+transition: all 0.4s;
+
+}
+
+nav .nav-item:hover{
+background-color: #1ABC9C;
+
+
+
+}
+
+.footer span{
+
+font-weight: 200;
+
+}
+.footer {
+
+
+    background-color: #1a252f;
+}
+
+.footerbg{
+
+    background-color: #2C3E50;
+
+
+}
